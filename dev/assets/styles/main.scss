@@ -19,6 +19,14 @@ body {
 	min-height: 100%;
 }
 
+#header-canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	width: 100vh;
+}
+
 .starter {
 	background-color: #2C1B2D;
 }
@@ -39,9 +47,9 @@ body {
 }
 
 .header-arrow-down {
-    position: relative;
-    bottom: 60px;
-    line-height: normal;
+	position: relative;
+	bottom: 60px;
+	line-height: normal;
 }
 
 .sidebar-cit-menu {
@@ -55,8 +63,8 @@ body {
 	// height: 48px;
 	font-size: 24px;
 	background:none;
-  border:none;
-  box-shadow:none;
+	border:none;
+	box-shadow:none;
 	color: white;
 }
 

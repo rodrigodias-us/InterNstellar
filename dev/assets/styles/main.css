@@ -8793,21 +8793,30 @@ body {
 }
 
 /* line 22, main.scss */
+#header-canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vh;
+}
+
+/* line 30, main.scss */
 .starter {
   background-color: #2C1B2D;
 }
 
-/* line 26, main.scss */
+/* line 34, main.scss */
 .nav-cit-logo {
   padding-top: 20px;
 }
 
-/* line 30, main.scss */
+/* line 38, main.scss */
 .nav-cit-header {
   padding-top: 10px;
 }
 
-/* line 34, main.scss */
+/* line 42, main.scss */
 .header-int-logo {
   margin-top: -56px;
   height: 100vh;
@@ -8815,22 +8824,21 @@ body {
   vertical-align: middle;
 }
 
-/* line 41, main.scss */
+/* line 49, main.scss */
 .header-arrow-down {
   position: relative;
   bottom: 60px;
   line-height: normal;
-  text-align: center;
 }
 
-/* line 48, main.scss */
+/* line 55, main.scss */
 .sidebar-cit-menu {
   position: absolute;
   right: 20px;
   top: 24px;
 }
 
-/* line 54, main.scss */
+/* line 61, main.scss */
 .sidebar-cit-menu button {
   font-size: 24px;
   background: none;
@@ -8840,7 +8848,7 @@ body {
   color: white;
 }
 
-/* line 64, main.scss */
+/* line 71, main.scss */
 .sidebar {
   background-color: #E6DFE5;
 }
