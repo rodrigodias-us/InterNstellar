@@ -32,11 +32,16 @@ body {
 }
 
 .header-int-logo {
-	padding-top: 150px;
+	margin-top: -56px;
+	height: 100vh;
+	line-height: 100vh;
+	vertical-align: middle;
 }
 
 .header-arrow-down {
-	padding-top: 100px;
+    position: relative;
+    bottom: 60px;
+    line-height: normal;
 }
 
 .sidebar-cit-menu {
