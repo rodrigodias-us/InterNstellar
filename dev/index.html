@@ -19,35 +19,53 @@
         <script src="/assets/lib/modernizr/modernizr.js"></script>
         <!-- endbuild -->
     </head>
-    <body class="starter">
+	<body class="starter">
+		
+		<div class="background">
+			<div class="persons">
+				<div class="circles">
+					<img class="circle" src="assets/images/circle.svg"/>
+					<img class="circle" src="assets/images/circle.svg"/>
+					<img class="circle" src="assets/images/circle.svg"/>
+				</div>
+				<img class="person person1" src="assets/images/person1.svg"/>
+				<img class="person person2" src="assets/images/person2.svg"/>
+			</div>
+		</div>
 
-        <div class="container">
+		<div class="container">
 
-          <div class="row">
-            <div class="nav-cit-logo col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <img src="/assets/images/logo-cit-color.png" alt="CI&amp;T" />
-            </div>
-            <div class="sidebar-cit-menu">
-              <button type="button">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
-              </button>
-            </div>
-          </div>
+			<div class="row">
+				<div class="nav-cit-logo col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+					<img src="/assets/images/logo-cit-color.png" alt="CI&amp;T" />
+				</div>
+				<div class="sidebar-cit-menu">
+					<button type="button">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+			</div>
 
-          <div class="row">
-            <div id="header-int-logo" class="content header-int-logo col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
-              <img src="/assets/images/logo.png" alt="InterNstellar" />
-              <div class="header-arrow-down">
-                <img src="/assets/images/arrow-down.png" alt="InterNstellar" />
-              </div>
-            </div>
-          </div>
+			<div class="row">
+				<div id="header-int-logo" class="content header-int-logo col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+					<img src="/assets/images/logo.png" alt="InterNstellar" />
+					<div class="header-arrow-down">
+						<img src="/assets/images/arrow-down.png" alt="InterNstellar" />
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-md-12">
 
-        </div>
+				</div>
+			</div>
+
+		</div>
 
         <!-- build:js  /assets/scripts.min.js -->
 		<script src="assets/lib/jquery/dist/jquery.js"></script>
-		<script src="assets/lib/three.js/build/three.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/lib/gsap/src/minified/TweenMax.min.js" type="text/javascript" charset="utf-8"></script>
 		<!-- endbuild -->
 
         <!-- build:js  /assets/scripts/bootstrap.min.js -->
@@ -67,8 +85,6 @@
 
         <!-- build:js  /assets/scripts/main.min.js -->
         <script src="/assets/scripts/main.js"></script>
-		<script src="assets/scripts/canvas_elements/circles.js" type="text/javascript" charset="utf-8"></script>
-        <script src="assets/scripts/render.js" type="text/javascript" charset="utf-8"></script>
         <!-- endbuild -->
 </body>
 </html>

@@ -1,3 +1,17 @@
-var scene = new THREE.Scene();
-var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );
-camera.position.z = 5;
+TweenMax.staggerFromTo('.circle', 10, {
+	scale: 0
+}, {
+	scale: 1,
+	repeat: -1,
+}, 2);
+
+TweenMax.staggerFromTo('.circle', 5, {
+	opacity: 0,
+}, {
+	opacity: 1,
+	ease: Power0.easeNone,
+	yoyo: true,
+	repeat: -1,
+}, 2);
+
+TweenMax.to('.person', 2, {x: Math.random() * 20, y: Math.random() * 20, yoyo: true, repeat: -1 });
